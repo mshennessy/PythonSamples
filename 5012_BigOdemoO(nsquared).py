@@ -19,7 +19,7 @@ print(" O(n^2) n-squared demo ...")
 dataSize=[]
 timeNeeded=[]
 
-for j in [5,10,15,20,25,30]:
+for j in [5,10,15,20,25,30,35,40]:
     listA=[]
     for i in range(j):
         listA.append(random.randint(1,10000))
